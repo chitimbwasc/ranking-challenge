@@ -10,7 +10,8 @@ from sample_data import NEW_POSTS
 
 load_dotenv()  # if a .env file exists, load environment variables from it
 
-client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+
+# client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
 app = Flask(__name__)
 CORS(app)
 
